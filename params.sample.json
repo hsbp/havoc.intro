@@ -1,0 +1,31 @@
+{
+	"width": 720,
+	"height": 540,
+	"fps": 29.97,
+	"logo": "/path/to/color-hsbp-square.png",
+	"bgcolor": [255, 255, 255],
+	"fgcolor": [0, 0, 0],
+	"frames": {
+		"logo": 30,
+		"logo_still": 60
+	},
+	"breeders": [
+		{
+			"box": [
+				[[114, 50], [231, 190]],
+				[[140, 90], [219, 145]]
+			],
+			"steps": [245, 260],
+			"frame_per_step": 7
+		},
+		{
+			"box": [
+				[[140, 90], [219, 145]],
+				[[64, 95], [69, 100]]
+			],
+			"steps": [260, 285],
+			"frame_per_step": 7,
+			"rotate": [0, -90]
+		}
+	]
+}
